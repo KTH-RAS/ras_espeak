@@ -6,4 +6,4 @@ find_package(catkin REQUIRED COMPONENTS)
 
 catkin_package()
 
-install(PROGRAMS scripts/ras_espeak DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+install(PROGRAMS scripts/espeak_node DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
